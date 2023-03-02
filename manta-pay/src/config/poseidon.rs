@@ -26,13 +26,13 @@ pub struct Spec<const ARITY: usize>;
 impl poseidon::Constants for Spec<2> {
     const WIDTH: usize = 3;
     const FULL_ROUNDS: usize = 8;
-    const PARTIAL_ROUNDS: usize = 55;
+    const PARTIAL_ROUNDS: usize = 56;
 }
 
 impl poseidon::Constants for Spec<3> {
     const WIDTH: usize = 4;
     const FULL_ROUNDS: usize = 8;
-    const PARTIAL_ROUNDS: usize = 55;
+    const PARTIAL_ROUNDS: usize = 56;
 }
 
 impl poseidon::Constants for Spec<4> {
