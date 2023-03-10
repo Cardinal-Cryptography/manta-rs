@@ -1,3 +1,4 @@
+#![feature(arc_unwrap_or_clone)]
 // Copyright 2019-2022 Manta Network.
 // This file is part of manta-rs.
 //
